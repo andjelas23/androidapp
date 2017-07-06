@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context="com.example.kasa.readme.Main2Activity">
+
+
+    <!-- <ImageButton
+         android:id="@+id/imageButton"
+         android:layout_width="51dp"
+         android:layout_height="43dp"
+         android:layout_marginBottom="523dp"
+         android:layout_marginTop="8dp"
+         android:alpha="0.60"
+         android:background="#FFFF"
+         android:elevation="0dp"
+         android:onClick="otvoriPocetnu"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.975"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.0"
+         app:srcCompat="@drawable/home2" /> -->
+
+        <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="368dp"
+         android:layout_height="20dp"
+         android:layout_marginBottom="458dp"
+         android:alpha="0.90"
+         android:background="#ffffb3"
+         android:popupBackground="#ffffb3"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent" />
+
+
+   <!--  <TextView
+
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="489dp"
+         android:alpha="0.80"
+         android:text="Odaberi grad"
+         android:textAllCaps="true"
+         android:textColor="@android:color/holo_orange_dark"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.97"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent" /> -->
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="320dp"
+        android:layout_height="324dp"
+        android:layout_marginBottom="69dp"
+        android:alpha="0.6"
+        android:background="#FFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

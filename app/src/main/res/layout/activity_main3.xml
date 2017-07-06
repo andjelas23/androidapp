@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context="com.example.kasa.readme.Main3Activity">
+    
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="509dp"
+        android:alpha="0.60"
+        android:background="#FFFF"
+        android:ems="10"
+        android:hint="Naziv autora"
+        android:inputType="textPersonName"
+        android:textColor="#cc0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="457dp"
+        android:alpha="0.60"
+        android:background="#FFFF"
+        android:ems="10"
+        android:hint="Naziv knjige"
+        android:inputType="textPersonName"
+        android:textColor="#cc0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="402dp"
+        android:alpha="0.60"
+        android:background="#FFFF"
+        android:text="Trazi"
+        android:textColor="#cc0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="329dp"
+        android:layout_height="319dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="186dp"/>
+
+</android.support.constraint.ConstraintLayout>
+
+

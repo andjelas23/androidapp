@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context="com.example.kasa.readme.MainActivity"
+
+    >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="500dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:alpha="0.60"
+        android:background="#ffffb3"
+        android:fontFamily="serif"
+        android:onClick="otvoriBibl"
+        android:text="Spisak biblioteka"
+        android:textColor="#cc0000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="441dp"
+        android:alpha="0.60"
+        android:background="#ffffb3"
+        android:fontFamily="serif"
+        android:onClick="otvoriKnjigu"
+        android:text="Traži knjigu"
+        android:textColor="#cc0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

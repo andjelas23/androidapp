@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MojaAplikacija</string>
+    <string-array name="gradovi">
+        <item>Izaberi grad</item>
+        <item>Budva</item>
+        <item>Bar</item>
+        <item>Herceg Novi</item>
+        <item>Kotor</item>
+        <item>Tivat</item>
+        <item>Ulqin</item>
+        <item>Podgorica</item>
+        <item>Cetinje</item>
+        <item>Danilovgrad</item>
+        <item>Niksic</item>
+        <item>Andrijevica</item>
+        <item>Berane</item>
+        <item>Bijelo Polje</item>
+        <item>Kolasin</item>
+        <item>Mojkovac</item>
+        <item>Plav</item>
+        <item>Pluzine</item>
+        <item>Pljevlja</item>
+        <item>Rozaje</item>
+        <item>Savnik</item>
+        <item>Zabljak</item>
+    </string-array>
+</resources>
