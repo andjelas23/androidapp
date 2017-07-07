@@ -29,6 +29,8 @@ public class CustopAdapter extends ArrayAdapter<Klasa> {
         View lista1 = inflater.inflate(R.layout.red_liste, parent, false);
         TextView opis = (TextView) lista1.findViewById(R.id.textView2);
         opis.setText(array.get(position).a);
+        
+       //a is from Klasa
 
 
         return lista1;
