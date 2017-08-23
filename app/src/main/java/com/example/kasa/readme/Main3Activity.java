@@ -54,7 +54,7 @@ public class Main3Activity extends AppCompatActivity {
                     url = "http://bp.etf.ac.me/users/sara92/stampajKnjige.php?autor=" +autor+"&knjiga="+knjiga;
                 }
                 if ((autor.length()==0)&&(knjiga.length()==0)) {
-                    Toast.makeText(Main3Activity.this,"Unesite naziz autora i/ili knjige",Toast.LENGTH_LONG).show();
+                    Toast.makeText(Main3Activity.this,"Unesite naziv autora i/ili knjige",Toast.LENGTH_LONG).show();
                 }
 
                 new GetDaataTask().execute();
